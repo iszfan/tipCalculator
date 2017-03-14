@@ -14,6 +14,7 @@
 		D66CCBC01E76FD58001F3774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66CCBBE1E76FD58001F3774 /* LaunchScreen.storyboard */; };
 		D66CCBCB1E76FD59001F3774 /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66CCBCA1E76FD59001F3774 /* tipperTests.swift */; };
 		D66CCBD61E76FD59001F3774 /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66CCBD51E76FD59001F3774 /* tipperUITests.swift */; };
+		D66CCBE41E7786AF001F3774 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66CCBE31E7786AF001F3774 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D66CCBD11E76FD59001F3774 /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66CCBD51E76FD59001F3774 /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		D66CCBD71E76FD59001F3774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66CCBE31E7786AF001F3774 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = tipper/SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D66CCBA91E76FD58001F3774 = {
 			isa = PBXGroup;
 			children = (
+				D66CCBE31E7786AF001F3774 /* SettingsViewController.swift */,
 				D66CCBB41E76FD58001F3774 /* tipper */,
 				D66CCBC91E76FD59001F3774 /* tipperTests */,
 				D66CCBD41E76FD59001F3774 /* tipperUITests */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					D66CCBB11E76FD58001F3774 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ED8DT42843;
 						ProvisioningStyle = Automatic;
 					};
 					D66CCBC51E76FD59001F3774 = {
@@ -261,6 +265,7 @@
 			files = (
 				D66CCBB81E76FD58001F3774 /* ViewController.swift in Sources */,
 				D66CCBB61E76FD58001F3774 /* AppDelegate.swift in Sources */,
+				D66CCBE41E7786AF001F3774 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ED8DT42843;
 				INFOPLIST_FILE = tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.tipper;
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ED8DT42843;
 				INFOPLIST_FILE = tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.tipper;
